@@ -1,0 +1,14 @@
+.game {
+    background-color: black;
+    position: relative;
+}
+
+.snake {
+    background-color: green;
+    position: absolute;
+}
+
+.food {
+    background-color: red;
+    position: absolute;
+}

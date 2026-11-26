@@ -1,0 +1,37 @@
+/* Styles shared by the home page and articles. */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    color: #222;
+    background-color: #fff;
+    font-family: system-ui, sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.6;
+}
+
+main {
+    max-width: 42rem;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+h1,
+h2,
+h3 {
+    line-height: 1.25;
+}
+
+a {
+    color: #0b5cad;
+}
+
+img,
+canvas {
+    max-width: 100%;
+}
